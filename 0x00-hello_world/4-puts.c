@@ -2,8 +2,11 @@
 include <stdio.h>
 
 /**
- * main Prints "Programming is like building a multilingual puzzle," followed by a new line.
- * Return: Always 0.
+ * main print the string in the put function
+ *
+ * Description: uisng the main function
+ * this programme prints "Programming is like building a multilingual puzzle
+ * Return: 0
  */
 int main(void)
 {
