@@ -1,10 +1,9 @@
-#!/bin/bash
 include <stdio.h>
 
 /**
- * main print the string in the put function
+ * main - print the string in the put function
  *
- * Description: uisng the main function
+ * Description: using the main function
  * this programme prints "Programming is like building a multilingual puzzle
  * Return: 0
  */
