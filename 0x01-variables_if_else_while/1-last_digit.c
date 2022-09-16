@@ -10,6 +10,7 @@
 int main(void)
 {
 int n;
+int L;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
@@ -24,3 +25,4 @@ else if (L < 6)
 
 return (0);
 }
+
