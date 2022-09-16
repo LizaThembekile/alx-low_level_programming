@@ -5,13 +5,11 @@
 /**
  * main - Prints
  *
- * Description: using the main function
- * Return: 0
+ * Return: Always success
  */
-
 int main(void)
-
 { 
+
 int n;
 
  srand(time(0));
