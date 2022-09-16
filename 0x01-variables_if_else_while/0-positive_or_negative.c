@@ -5,7 +5,8 @@
 /**
  * main - Prints
  *
- * Return: Always 0
+ * Description: using the main function
+ * Return: 0
  */
 
 int main(void)
