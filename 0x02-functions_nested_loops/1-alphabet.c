@@ -14,5 +14,6 @@ for (j = 'a'; j <= 'z' ; j++)
 _putchar(j);
 }	
 _putchar('\n');
+print_alphabet();
 return (0);
 }
