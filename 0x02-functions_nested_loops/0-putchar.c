@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 * main - prints putchar
 *
@@ -18,4 +17,4 @@ _putchar('r');
 _putchar('\n');
 
 return (0);
-} 
+}
