@@ -2,6 +2,7 @@
 
 /**
 * prints_alphabet_x10 -> prints x10 alphabet,lowercase, ff by a new line.
+* @print_alphabet_x10: prototype
 */
 
 void print_alphabet_x10(void)
