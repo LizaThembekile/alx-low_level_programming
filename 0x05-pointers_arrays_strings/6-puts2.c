@@ -16,5 +16,5 @@ i = 0
 		}
 		i++;
 	}
-putchar('\n')
+putchar('\n');
 }
