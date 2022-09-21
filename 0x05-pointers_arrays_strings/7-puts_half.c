@@ -1,8 +1,10 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * rev_string -> reverse a string
+ * puts_half - a string
  * @str: string parameter
+ *
+ * Return: nothing
  */
 void puts_half(char *str)
 {
