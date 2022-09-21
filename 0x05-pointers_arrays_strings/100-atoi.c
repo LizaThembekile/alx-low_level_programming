@@ -24,7 +24,7 @@ int _atoi(char *s)
 	{
 		do {
 			num = num * 10 + (*temp - '0');
-			temp++'
+			temp++;
 	}	while (*temp >= '0' && *temp <= '9');
 
 	}
