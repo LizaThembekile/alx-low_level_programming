@@ -2,27 +2,18 @@
 
 /**
  * rev_string -> reverse a string
- * @s: parameter
+ * @str: string parameter
  */
-void rev_string(char *s)
+void puts_half(char *str);
 {
-	"sam" -> "mas"
-	char tmp;
-	int i, l1, l2;
+	int x, y, i;
 
-	l1 = 0
-	l2 = 0
-
-	while (s[l2] != '\0')
-		l1++;
-	
-	l2 = l1 - 1;
-	for (i = 0; i < l1 / 2; i++)
-	{
-		"samalx" "alxmas"
-		tmp = s[i];
-		s[i] = s[l2];
-		s[l2] = tmp;
-		l2 -= 1;
-	}
+	x = strlen(str);
+	if (x % 2 == 1)
+		y = x / 2 + 1;
+	else
+		y = x / 2;
+	for (i = y; i < x; i++)
+		_putchar(str[i]);
+	_putchar('\n');
 }
