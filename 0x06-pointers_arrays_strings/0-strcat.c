@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <string.h>
 /**
 * _strcat ->Function strcat
 * @dest: first parameter
@@ -13,7 +13,7 @@ int len = 0, i;
 while (dest[len])
 len++;
 
-for (i = 0; scr[i] != '\0'; i++)
+for (i = 0; src[i] != 0; i++)
 {
 dest[len] = scr[i];
 len += 1;
