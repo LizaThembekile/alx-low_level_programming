@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <string>
 /**
 * _strcat ->Function strcat
 * @dest: first parameter
