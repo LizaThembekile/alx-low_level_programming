@@ -2,19 +2,20 @@ include "main.h"
 
 /**
  * string_toupper - changer lower case to upper case
- * @str: string to be changed
+ * @x: string to be changed
  *
  * Return: Addreaa to string
  */
-char *string_toupper(char *str)
+char *string_toupper(char *x)
 {
+
 	int i = 0;
 
-	while (str[i])
+	while (x[i])
 	{
-		if (str[i] >= 97 && str[i] <= 122)
-			str[i] = str[i] -  32;
+		if (x[i] >= 97 && x[i] <= 122)
+			x[i] = x[i] -  32;
 		i++;
 	}
-	return (str);
+	return (x);
 }
