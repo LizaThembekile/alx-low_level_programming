@@ -8,7 +8,7 @@ include "main.h"
  */
 char *string_toupper(char *str)
 {
-	int i = 0; 
+	int i = 0;
 
 	while (str[i] != '\0')
 	{
