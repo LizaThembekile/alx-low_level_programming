@@ -6,12 +6,13 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)                                                                       {                  
+int main(void)
+{
 char low;
 
-  for (low = 'a' ; low <= 'z' ; low++)
-	putchar(low);
-        putchar("\n");
+for (low = 'a'; low <= 'z'; low++)
+_putchar(low);
 
-  return (0);
+_putchar("\n");
+return (0);
 }
