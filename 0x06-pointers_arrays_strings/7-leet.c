@@ -2,7 +2,6 @@
 
 /** leet -> a leet function
  * @x: parameter
- * 
  * Return: A string
  */
 char *leet(char *x)
@@ -17,7 +16,7 @@ char *leet(char *x)
 
 		while (b < l)
 		{
-		if (x[a] == tr[b] || x[a] - 32 = tr[b])
+		if (x[a] == tr[b] || x[a] - 32 == tr[b])
 			x[a] = trw[b];
 		b++;
 		}
