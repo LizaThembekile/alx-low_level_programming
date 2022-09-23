@@ -9,20 +9,23 @@
 
 int main(void)
 {
-	int i;
-	int fb1 = 1;
-	int fb2 = 1;
-	long fn = fb1;
+	int count;
+	unsigned long fib1 = 0, fib2 = 1, sum;
 
-	for (i = 0; i < 50; i++)
+	for (count = 0; count < 50; count++)
 	{
-		printf("%ld", fn);
-		if (i < 49)
+		sum = fib1 + fib2;
+		printf("%lu", sum);
+
+		fib1 = fib2;
+		fib2 = sum;
+
+		if (count == 49)
+		_putchar('\n');
+
+		else
 			printf(", ");
-		fn = fb1 + fb2;
-		fb1 = fb2;
-		fb2 = fn;
+
 	}
-	_putchar('\n');
 	return (0);
 }
