@@ -1,34 +1,35 @@
 #include "main.h"
 
 /**
- * cap_string -> capitalization function
- * @x: string param
- * Return: capitalization version of string
- */
-char *cap_string(char *x)
+* cap_string - Capitalizes all words of a string.
+* @str: The string to be capitalized.
+*
+* Return: A pointer to the changed string.
+*/
+char *cap_string(char *str)
 {
-	int i = 0;
-while (x[i])
-{
-while (!(x[i] >= 'a' && x[i] <= 'z'))
-i++;
+int index = 0;
 
-if (x[i - 1] == ' ' ||
-x[i - 1] == '\t' ||
-x[i - 1] == '\n' ||
-x[i - 1] == ',' ||
-x[i - 1] == ';' ||
-x[i - 1] == '.' ||
-x[i - 1] == '!' ||
-x[i - 1] == '?' ||
-x[i - 1] == '"' ||
-x[i - 1] == '(' ||
-x[i - 1] == ')' ||
-x[i - 1] == '{' ||
-x[i - 1] == '}' ||
-i == 0)
-x[i] -= 32;
-i++;
+while (str[index])
+{
+while (!(str[index] >= 'a' && str[index] <= 'z'))
+index++;
+if (str[index - 1] == ' ' ||
+str[index - 1] == '\t' ||
+str[index - 1] == '\n' ||
+str[index - 1] == ',' ||
+str[index - 1] == ';' ||
+str[index - 1] == '.' ||
+str[index - 1] == '!' ||
+str[index - 1] == '?' ||
+str[index - 1] == '"' ||
+str[index - 1] == '(' ||
+str[index - 1] == ')' ||
+str[index - 1] == '{' ||
+str[index - 1] == '}' ||
+index == 0)
+str[index] -= 32;
+index++;
 }
-return (x)
+return (str);
 }
