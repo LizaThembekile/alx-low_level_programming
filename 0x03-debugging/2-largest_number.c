@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -16,11 +17,11 @@ largest = a;
 }
 else if (b > c && b > a)
 {
-largest = c;
+largest = b;
 }
 else
 {
-largest = b;
+largest = c;
 }
 return (largest);
 }
