@@ -7,26 +7,13 @@
  */
 int main(void)
 {
-	long n = 612852475143;
-	long div = 2;
-	long largest;
+	unsigned long int i, n = 612852475143;
 
-	while (n != 0)
+	for (i = 3; i < 782849; i = i + 2)
 	{
-		if (n % div != 0)
-		{
-			++div;
-		}
-		else
-		{
-			largest = n;
-			n /= div;
-			if (n == 1)
-			{
-				printf("%lu\n", largest);
-				n = 0;
-			}
-		}
+		while ((n % i == 0) && (n != i))
+			n = n / i;
 	}
+	printf("%lu\n", n);
 	return (0);
 }
