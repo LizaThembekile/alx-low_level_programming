@@ -23,6 +23,6 @@ int main(void)
 		fb1 = fb2;
 		fb2 = fn;
 	}
-	_putchar('\n\);
+	_putchar('\n');
 	return (0);
 }
