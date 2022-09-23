@@ -1,18 +1,18 @@
-#include "main.h"
-#include <stdio.h>
+#ifndef MAIN_H
+#define MAIN_H
 
-/**
- * main - check the code.
- *
- * Return: Always 0.
- */
-int main(void)
-{
-char c;
+int _putchar(char);
+int _isupper(int);
+int _isdigit(int);
+int mul(int,int);
+void print_numbers(void);
+void print_most_numbers(void);
+void more_numbers(void);
+void print_line(int);
+void print_diagonal(int);
+void print_square(int);
+void print_triangle(int);
+void print_any_int(int);
+void print_number(int);
 
-    c = 'A';
-    printf("%c: %d\n", c, _isupper(c));
-    c = 'a';
-    printf("%c: %d\n", c, _isupper(c));
-    return (0);
-}
+#endif
