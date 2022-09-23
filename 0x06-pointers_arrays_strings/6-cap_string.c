@@ -12,7 +12,7 @@ int index = 0;
 
 while (str[index])
 {
-while ((str[index] >= 'a' && str[index] <= 'z'))
+while (!(str[index] >= 97 && str[index] <= 122))
 index++;
 if (str[index - 1] == ' ' ||
 str[index - 1] == '\t' ||
