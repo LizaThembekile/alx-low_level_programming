@@ -2,13 +2,12 @@
 
 /**
 * prints_alphabet_x10 -> prints x10 alphabet,lowercase, ff by a new line.
-* @print_alphabet_x10: prototype
+*
 */
 
-void print_alphabet_x10(void)
+void print_alphabet_x10(void);
 {
-	int j;
-	int i;
+	int j, i;
 
 	for (i = 0; i < 10; i++)
 {
