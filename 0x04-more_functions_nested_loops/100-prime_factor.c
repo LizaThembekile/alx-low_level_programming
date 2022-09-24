@@ -1,9 +1,9 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * main - prints the largest prime factor
+ * main - prints prime factors of 612852475143
  *
- * Return: void, and the stated print
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
